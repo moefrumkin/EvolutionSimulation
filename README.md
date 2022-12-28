@@ -7,6 +7,6 @@ In each cycle of the simulation, the grass grows following a logistic growth cur
 An organism will move in the direction of the tile with the most grass within its field of view.
 It will then eat as much grass as its stomachs can contain from the tile it ends up on.
 After that it will consume the amount of food that is required by its appendages.
-If an organisms runs out of food it will die.
+If an organisms runs out of food it will die and a black X will be drawn in its place.
 If it has enough food left over, it will asexually reproduce and lay a white egg that will hatch in the next cycle.
 Children have random mutations that differentiate them from their parents, either structurally, in visual range, or genetic stability.
